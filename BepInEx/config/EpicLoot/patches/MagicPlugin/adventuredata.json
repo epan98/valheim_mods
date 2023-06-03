@@ -1,0 +1,40 @@
+{
+	"Author": "HenryRat",
+	"RequireAll": true, 
+	"Patches": 
+		[
+			{
+				"Path": "$.Gamble.GambleCosts", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_SurtlingStaff",         "CoinsCost": 750  },
+						{ "Item": "BMP_EikthyrsStaff",     "CoinsCost": 1000  },
+						{ "Item": "BMP_LightningStaff",     "CoinsCost": 1000  },
+						{ "Item": "BMP_HealStaff",     "CoinsCost": 1250  },
+						{ "Item": "BMP_ArcticStaff",     "CoinsCost": 1500  },
+						{ "Item": "BMP_PoisonStaff",     "CoinsCost": 1250  },
+						{ "Item": "BMP_NeckTotem",     "CoinsCost": 500  },
+						{ "Item": "BMP_WolfTotem",     "CoinsCost": 1500  },
+						{ "Item": "BMP_CrystalTotem",     "CoinsCost": 1500  },
+
+						{ "Item": "BMP_TrollMagicHood",           "CoinsCost": 500  },
+						{ "Item": "BMP_PolarWolfHood",       "CoinsCost": 750 },
+
+						{ "Item": "BMP_TrollMagicCape",          "CoinsCost": 500 },
+						{ "Item": "BMP_CultistCape",          "CoinsCost": 750 },
+
+						{ "Item": "BMP_PolarWolfChest",          "CoinsCost": 1000 },
+
+						{ "Item": "BMP_PolarWolfLegs",          "CoinsCost": 1000 },				
+
+						{ "Item": "BMP_LightBelt",          "CoinsCost": 350 },
+						{ "Item": "BMP_DvergrBelt",          "CoinsCost": 1500 },
+						{ "Item": "BMP_EitrBelt",          "CoinsCost": 1500 },
+						{ "Item": "BMP_ElementalistBelt",          "CoinsCost": 1500 },
+						{ "Item": "BMP_HogwartsBelt",          "CoinsCost": 1500 },
+						{ "Item": "BMP_NecromancerBelt",          "CoinsCost": 1500 }
+					]  
+			}
+		]
+}

@@ -1,0 +1,98 @@
+{
+	"Author": "HenryRat",
+	"RequireAll": true,
+	"Patches":
+		[
+			{
+				"Path": "$.ItemInfo",
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{
+							"Type": "Staffs",
+							"Fallback": "Spears",
+							"Items": ["BMP_SurtlingStaff", "BMP_EikthyrsStaff", "BMP_LightningStaff", "BMP_HealStaff", "BMP_ArcticStaff", "BMP_PoisonStaff", "BMP_NeckTotem", "BMP_WolfTotem", "BMP_CrystalTotem"],
+							"ItemsByBoss": 
+								{
+									"defeated_eikthyr": ["BMP_SurtlingStaff", "BMP_EikthyrsStaff", "BMP_LightningStaff"],
+									"defeated_gdking": ["BMP_HealStaff", "BMP_PoisonStaff"],
+									"defeated_bonemass": ["BMP_WolfTotem"],
+									"defeated_dragon": ["BMP_ArcticStaff", "BMP_CrystalTotem"],
+									"defeated_goblinking": [],
+									"defeated_queen": []
+								}
+						},
+						{
+							"Type": "HeadArmor",
+							"Fallback": "ArmorRagsChest",
+							"Items": [ "BMP_TrollMagicHood", "BMP_PolarWolfHood" ],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : [ "BMP_TrollMagicHood" ],
+									"defeated_gdking"     : [  ],
+									"defeated_bonemass"   : [ "BMP_PolarWolfHood" ],
+									"defeated_dragon"     : [  ],
+									"defeated_goblinking" : [  ],
+									"defeated_queen"      : [  ]
+								}
+						},
+						{
+							"Type": "ShouldersArmor",
+							"Fallback": "ArmorRagsLegs",
+							"Items": [ "BMP_TrollMagicCape", "BMP_CultistCape" ],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : [ "BMP_TrollMagicCape" ],
+									"defeated_gdking"     : [  ],
+									"defeated_bonemass"   : [ "BMP_CultistCape" ],
+									"defeated_dragon"     : [  ],
+									"defeated_goblinking" : [  ],
+									"defeated_queen"      : [  ]
+								}
+						},
+						{
+							"Type": "ChestArmor",
+							"Fallback": "",
+							"Items": [ "BMP_PolarWolfChest" ],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : [  ],
+									"defeated_gdking"     : [  ],
+									"defeated_bonemass"   : [ "BMP_PolarWolfChest" ],
+									"defeated_dragon"     : [  ],
+									"defeated_goblinking" : [  ],
+									"defeated_queen"      : [  ]
+								}
+						},
+						{
+							"Type": "LegsArmor",
+							"Fallback": "",
+							"Items": [ "BMP_PolarWolfLegs" ],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : [  ],
+									"defeated_gdking"     : [  ],
+									"defeated_bonemass"   : [ "BMP_PolarWolfLegs" ],
+									"defeated_dragon"     : [  ],
+									"defeated_goblinking" : [  ],
+									"defeated_queen"      : [  ]
+								}
+						},
+						{
+							"Type": "Utility",
+							"Fallback": "Clubs",
+							"Items": [ "BMP_DvergrBelt", "BMP_EitrBelt", "BMP_ElementalistBelt", "BMP_HogwartsBelt", "BMP_LightBelt", "BMP_NecromancerBelt"],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : [ "BMP_LightBelt" ],
+									"defeated_gdking"     : [  ],
+									"defeated_bonemass"   : [  ],
+									"defeated_dragon"     : [  ],
+									"defeated_goblinking" : [ "BMP_DvergrBelt", "BMP_EitrBelt", "BMP_ElementalistBelt" , "BMP_HogwartsBelt", "BMP_NecromancerBelt"],
+									"defeated_queen"      : [  ]
+								}
+						}
+					]
+			}
+		]
+}

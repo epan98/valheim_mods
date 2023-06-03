@@ -1,0 +1,157 @@
+{
+	"Author": "HenryRat",
+	"RequireAll": true,
+	"Patches":[
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Bows",
+					"Fallback": "Clubs",
+					"Items": ["VAAntler_Bow", "VACrossbowBronze", "VAArbalistBronze", "VACrossbowElder", "VACrossbowModer"],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": ["VAAntler_Bow", "VACrossbowBronze"],
+							"defeated_gdking": ["VACrossbowElder"],
+							"defeated_bonemass": [],
+							"defeated_dragon": ["VAArbalistBronze", "VACrossbowModer"],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Knives",
+					"Fallback": "Clubs",
+					"Items": ["VAAntler_dagger", "VAdagger_bronze", "VAdagger_bronze_2h", "VAdagger_iron", "VAdagger_iron_2h", "VAdagger_silver", "VAdagger_silver_2h"],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": ["VAAntler_dagger", "VAdagger_bronze", "VAdagger_bronze_2h"],
+							"defeated_gdking": ["VAdagger_iron", "VAdagger_iron_2h"],
+							"defeated_bonemass": ["VAdagger_silver", "VAdagger_silver_2h"],
+							"defeated_dragon": [],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "TwoHandAxes",
+					"Fallback": "Axes",
+					"Items": ["VAAntler_greataxe", "VAblackmetal_battleaxe", "VAbronze_battleaxe"],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": ["VAAntler_greataxe", "VAbronze_battleaxe"],
+							"defeated_gdking": [],
+							"defeated_bonemass": [],
+							"defeated_dragon": ["VAblackmetal_battleaxe"],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Swords",
+					"Fallback": "AxeFlint",
+					"Items": ["VAAntler_Sword", "VAbronze_greatsword", "VAiron_greatsword", "VAsilver_greatsword", "VASwordChitin", "VASwordModer" ],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": ["VAAntler_Sword", "VAbronze_greatsword"],
+							"defeated_gdking": ["VAiron_greatsword","VASwordChitin"],
+							"defeated_bonemass": ["VAsilver_greatsword"],
+							"defeated_dragon": ["VASwordModer"],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Spears",
+					"Fallback": "Spears",
+					"Items": ["VASpearModer"],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": [],
+							"defeated_gdking": [],
+							"defeated_bonemass": [],
+							"defeated_dragon": ["VASpearModer"],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Polearms",
+					"Fallback": "Spears",
+					"Items": ["VAatgeir_antler", "VAAtgeirChitin"],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": ["VAatgeir_antler"],
+							"defeated_gdking": [],
+							"defeated_bonemass": ["VAAtgeirChitin"],
+							"defeated_dragon": [],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Sledges",
+					"Fallback": "Clubs",
+					"Items": ["VAblackmetal_sledge", "VAElderHammer" ],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": [],
+							"defeated_gdking": ["VAElderHammer"],
+							"defeated_bonemass": [],
+							"defeated_dragon": ["VAblackmetal_sledge"],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		},
+		{
+			"Path": "$.ItemInfo",
+			"Action": "AppendAll",
+			"Value": [
+				{
+					"Type": "Bucklers",
+					"Fallback": "RoundShields",
+					"Items": ["VAserpent_buckler", "VAElderRoundShield" ],
+					"ItemsByBoss": 
+						{
+							"defeated_eikthyr": [],
+							"defeated_gdking": ["VAserpent_buckler", "VAElderRoundShield"],
+							"defeated_bonemass": [],
+							"defeated_dragon": [],
+							"defeated_goblinking": [],
+							"defeated_queen": []
+						}
+				}]
+		}		
+]}

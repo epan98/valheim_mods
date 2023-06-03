@@ -1,0 +1,47 @@
+{
+  "Author": "HenryRat",
+  "RequireAll": true, 
+  "Patches": [
+	{
+      "Path": "$.Gamble.GambleCosts", 
+      "Action": "AppendAll",
+      "Value": [
+				{ "Item": "VAAntler_Bow",         "CoinsCost": 1000  },
+				{ "Item": "VACrossbowBronze",     "CoinsCost": 500  },
+				{ "Item": "VAArbalistBronze",     "CoinsCost": 1500  },
+				{ "Item": "VACrossbowElder",     "CoinsCost": 1250  },
+				{ "Item": "VACrossbowModer",     "CoinsCost": 1750  },
+				
+				{ "Item": "VAAntler_dagger",           "CoinsCost": 1000  },
+				{ "Item": "VAdagger_bronze",       "CoinsCost": 350 },
+				{ "Item": "VAdagger_bronze_2h",          "CoinsCost": 500 },
+				{ "Item": "VAdagger_iron",          "CoinsCost": 500 },
+				{ "Item": "VAdagger_iron_2h",          "CoinsCost": 750 },
+				{ "Item": "VAdagger_silver",          "CoinsCost": 800 },
+				{ "Item": "VAdagger_silver_2h",          "CoinsCost": 1000 },
+				
+				{ "Item": "VAAntler_greataxe",          "CoinsCost": 1000 },
+				{ "Item": "VAblackmetal_battleaxe",          "CoinsCost": 1500 },
+				{ "Item": "VAbronze_battleaxe",          "CoinsCost": 350 },
+				
+				{ "Item": "VAAntler_Sword",          "CoinsCost": 1000 },
+				{ "Item": "VASwordModer",          "CoinsCost": 2000 },
+				{ "Item": "VAbronze_greatsword",          "CoinsCost": 350 },
+				{ "Item": "VAiron_greatsword",          "CoinsCost": 500 },
+				{ "Item": "VAsilver_greatsword",          "CoinsCost": 1500 },
+				{ "Item": "VASwordChitin",          "CoinsCost": 500 },
+				
+				{ "Item": "VASpearModer",          "CoinsCost": 2000 },
+				
+				{ "Item": "VAatgeir_antler",          "CoinsCost": 1000 },
+				{ "Item": "VAAtgeirChitin",          "CoinsCost": 500 },
+				
+				{ "Item": "VAblackmetal_sledge",          "CoinsCost": 2000 },
+				{ "Item": "VAElderHammer",          "CoinsCost": 1500 },
+				
+				{ "Item": "VAserpent_buckler",          "CoinsCost": 750 },
+				{ "Item": "VAElderRoundShield",          "CoinsCost": 1250 }
+			   ]  
+    }
+  ]
+}

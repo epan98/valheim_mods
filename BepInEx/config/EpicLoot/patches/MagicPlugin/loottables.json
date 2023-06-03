@@ -1,0 +1,85 @@
+{
+	"Author": "HenryRat",
+	"RequireAll": true, 
+	"Patches": 
+		[
+			{
+				"Path": "$.ItemSets[?(@.Name == 'ModUtility')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_LightBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_DvergrBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_EitrBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_ElementalistBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_HogwartsBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_NecromancerBelt",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier2Weapons')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_SurtlingStaff",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] },
+						{ "Item": "BMP_EikthyrsStaff",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] },
+						{ "Item": "BMP_LightningStaff",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier2Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_TrollMagicHood",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] },
+						{ "Item": "BMP_TrollMagicCape",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier3Weapons')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_HealStaff",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] },
+						{ "Item": "BMP_PoisonStaff",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier4Weapons')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_WolfTotem",     "Weight": 1, "Rarity": [ 5, 35, 50, 20 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_PolarWolfHood",     "Weight": 1, "Rarity": [ 5, 35, 50, 20 ] },
+						{ "Item": "BMP_CultistCape",     "Weight": 1, "Rarity": [ 5, 35, 50, 20 ] },
+						{ "Item": "BMP_PolarWolfChest",     "Weight": 1, "Rarity": [ 5, 35, 50, 20 ] },
+						{ "Item": "BMP_PolarWolfLegs",     "Weight": 1, "Rarity": [ 5, 35, 50, 20 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier5Weapons')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "BMP_ArcticStaff",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] },
+						{ "Item": "BMP_CrystalTotem",     "Weight": 1, "Rarity": [ 0, 15, 60, 25 ] }
+					]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier3Shields')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "VAserpent_buckler",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] },
+						{ "Item": "VAElderRoundShield",     "Weight": 1, "Rarity": [ 38, 50, 8, 4 ] }
+					]  
+			}
+		]
+}
